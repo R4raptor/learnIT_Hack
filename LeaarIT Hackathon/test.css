@@ -1,0 +1,93 @@
+/* Custom CSS for Patient Information Form */
+
+/* Body background color */
+body {
+    background-color: #6fafd4; /* Light background color */
+  }
+  
+  /* Container padding and text color */
+  .container {
+    padding: 50px;
+    color: #333; /* Dark text color */
+  }
+  
+  /* Form heading color */
+  h1 {
+    color: #333; /* Dark text color */
+  }
+  
+  /* Form label color */
+  .form-group label {
+    color: #000080; /* Green label color */
+  }
+  
+  /* Button background color */
+  .btn-primary {
+    background-color: #e74c3c; /* Orange button color */
+    border-color: #e74c3c;
+  }
+  
+  /* Button hover effect */
+  .btn-primary:hover {
+    background-color: #c0392b; /* Darker orange on hover */
+    border-color: #c0392b;
+  }
+  
+  /* Input field background color */
+  .form-control {
+    background-color: #fff; /* White input background color */
+  }
+  
+  /* Input field border color */
+  .form-control:focus {
+    border-color: #e74c3c; /* Orange border color on focus */
+  }
+  
+  /* Add more custom styling as needed */
+  /* Custom CSS */
+.row.mb-3 {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+
+#patientForm{
+    color: #000080;
+}  
+
+.top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 6px;
+    overflow: hidden;
+    background-color: #ea9f0a;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 2
+  }
+  
+  .top-nav li {
+    float: right;
+    cursor: pointer;
+    margin-right: 23px;
+  }
+  
+  .top-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .top-nav h4 {
+    padding-left: 150px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .top-nav h4 {
+      padding-left: 60px;
+    }
+  }
+  
